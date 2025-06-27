@@ -13,7 +13,7 @@ public class CreateOrgTest {
 		driver.manage().window().maximize();
 		
 		driver.findElement(By.name("q")).sendKeys("puma");
-		
+		driver.quit();
 	}
 
 }
