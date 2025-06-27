@@ -1,8 +1,10 @@
 package com.createproduct;
 
-public class createproduct {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class createproductTest {
+  @Test
+	public  void main1() {
 		// TODO Auto-generated method stub
       System.out.println(" create test");
 	}
